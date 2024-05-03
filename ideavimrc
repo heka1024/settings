@@ -1,0 +1,11 @@
+set scrolloff=5
+
+set incsearch
+
+map Q gq
+set NERDTree
+nmap \f :NERDTreeFind<CR>
+nmap \r :action RunClass<CR>
+nmap \d :action Debug<CR>
+
+
